@@ -1,0 +1,10 @@
+require 'autotest/growl'
+
+# Make Failure and Error Notifications Sticky:
+Autotest::Growl::sticky_failure_notifications = true
+
+# Don’t clear the terminal before running a test:
+Autotest::Growl::clear_terminal = false
+
+# List the files modified before tests are re-run:
+Autotest::Growl::show_modified_files = true
